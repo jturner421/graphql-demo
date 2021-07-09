@@ -20,3 +20,4 @@ class DevelopmentConfig(BaseConfig):
     FLASK_ENV = 'development'
     DEBUG = True
     TESTING = False
+    SQLALCHEMY_DATABASE_URI = os.getenv('SQLALCHEMY_DATABASE_URI', 'sqlite:///dev.db')
