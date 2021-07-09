@@ -3,3 +3,4 @@ Flask-SQLAlchemy
 Ariadne
 Flask-Cors
 python-dotenv
+psycopg2
